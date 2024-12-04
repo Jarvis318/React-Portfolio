@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Container, Header, Grid, Segment, Button } from 'semantic-ui-react';
+import myResume from '../assets/resume.pdf';
 
 
 const resume = () => {
@@ -7,13 +8,12 @@ const resume = () => {
     return (
         <>
             <Header>
-                <h1>Welcome to the Resume page!</h1>
+                <h1>My Resume</h1>
             </Header>
 
             <Container>
-                <div className="project-image">
-                    <img className="image" src="/screenshots/NoteTakerHw11.png" />
-                </div>
+            <embed src={myResume} width="500" height="575" 
+ type="application/pdf"/>
             </Container>
         </>
     );
