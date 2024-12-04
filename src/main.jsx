@@ -6,7 +6,7 @@ import './index.css'
 
 import Home from './pages/homepage.jsx'
 import Projects from './pages/projects.jsx'
-
+import Resume from './pages/resume.jsx'
 
 const router = createBrowserRouter([
   {
@@ -20,7 +20,11 @@ const router = createBrowserRouter([
        }, {
         path: '/projects',
         element: <Projects />
+      }, {
+        path: '/resume',
+        element: <Resume />
       }
+       
     ]
   }
 ])

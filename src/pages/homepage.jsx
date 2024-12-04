@@ -7,7 +7,11 @@ const homepage = () => {
 return (
     <>
       <Container>
-          <h1>Welcome to the homepage!</h1>
+          <h1>Welcome!</h1>
+          <p>
+            My name is Jarvis Washington. I am a aspiring website developer. This webisite
+            is a placce where one can browse the different projects I've worked on.
+          </p>
         </Container>
     </>
   );

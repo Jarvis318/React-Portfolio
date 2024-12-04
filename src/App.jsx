@@ -5,6 +5,7 @@ import  Navbar  from './components/navbar';
 //import viteLogo from '/vite.svg'
 import { Container, Header, Grid, Segment, Button } from 'semantic-ui-react';
 import './App.css'
+import './index.css'
 
 function App() {
   //const [count, setCount] = useState(0)
